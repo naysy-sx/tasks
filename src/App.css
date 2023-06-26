@@ -1,0 +1,47 @@
+.Main{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-gap: 2rem;
+}
+.MainAside{
+	max-width: 300px;
+	flex-basis: 300px;
+}
+.Todo-list{
+	flex: 1;
+	padding: 0;
+}
+.Todo-list th{
+	font-weight: bold;
+}
+.Todo-list td{
+	vertical-align: top;
+}
+.Todo-item-content{
+	width: 40%;
+	min-width: 40%;
+}
+
+.Todo-item{
+	list-style-type: none;
+}
+
+.Todo-card.success{
+	background-color: #d5ffd5;
+}
+
+.Todo-card img[src='']{
+	display: none;
+}
+
+.Todo-card footer{
+	display: flex;
+	gap: 1rem;
+}
+.Todo-card-categories {
+	margin-bottom: 0;
+}
+.Todo-card-categories li{
+	white-space: nowrap;
+	font-style: italic;
+}
